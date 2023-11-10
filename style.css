@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*#navbar{
+    width: 100%;
+    
+    
+    position: fixed;
+    z-index: 500;
+}*/
+#logo-mobile{
+    display: none;
+    width: 45px;
+}
+.form-control{
+    background-color: rgb(228, 228, 228);
+    
+}
+
+.wrapper-up{
+    height: 100vh;
+    /*height: calc(100vh - 70px);*/
+    background-color: blue;
+    display: flex;
+}
+.side-bar{
+    background-image: url(img/sidebar-bg.png);
+    width: 150px;
+    height: 100%;
+    background-color: rgb(30, 30, 51);
+}
+
+
+/* versione tablet */
+
+@media all and (max-width: 768px) {
+
+    #logo{
+        display: none;
+    }
+
+    #logo-mobile{
+        display: block;
+    }
+
+
+}
