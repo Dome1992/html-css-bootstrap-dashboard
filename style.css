@@ -39,7 +39,7 @@ header{
 }
 .side-bar{
     background-image: url(img/sidebar-bg.png);
-    width: 70px;
+    width: 120px;
     height: 100%;
     background-color: rgb(30, 30, 51);
     display: flex;
@@ -192,7 +192,7 @@ span{
         margin-right: 0;
     }
     .side-bar{
-        width: 170px;
+        width: 200px;
         
     }
     .fa-bell{
