@@ -148,12 +148,25 @@
                                 </div>
 
                                 <div class="col">
-                                    <span>Nuovo studente 
-                                        <a href="">
+                                    <span>Nuovo studente
+
+                                        <a class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"    href="#offcanvasExample" role="button">
                                             <i class="fa-solid fa-plus" style="color: #ffffff;" id="icon-plus"> 
                                             </i>
                                         </a>
+                                        
+                                            
+                                  
                                     </span>
+                                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"                    aria-labelledby="offcanvasRightLabel">
+                                        <div class="offcanvas-header">
+                                          <h5 id="offcanvasRightLabel">Inserisci un nuovo studente</h5>
+                                          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                        </div>
+                                        <div class="offcanvas-body">
+                                          ...
+                                        </div>
+                                      </div>
                                 </div>
                             </div>
                         </div>
@@ -163,186 +176,227 @@
 
 
                 <div class="container-fluid">
-                    <div class="row" id="row-table">
-                        <div class="col-8" style="border: 1px solid rgb(172, 172, 172);">
-                             <h3 style="color: black;">Prossime classi</h3>
-                        </div>
-                       
-                        <div class="col-8" style="border: 1px solid rgb(172, 172, 172);">
-                            <table class="table">
-                                <thead>
-                                  <tr>
-                                    <td scope="col">Nome</td>
-                                    <th></th>
-                                    <td scope="col">Data inizio</td>
-                                    <td scope="col">ROI</td>
-                                    <td scope="col">Stato</td>
-                                    <td scope="col">Azioni</td>
-                                  </tr>
-                                </thead>
-                                <tbody>
-                                  <tr>
-                                    <td scope="row"><img src="img/class-avatar.jpg" class="img-avatar" alt=""> Classe 75</td>
-                                    <td></td>
-                                    <td>15 Feb 2021</td>
-                                    <td>20%</td>
-                                    <td ><span class="done">Done</span></td>
-                                    <td>
-                                        <i class="fa-solid fa-pen" style="color: #bababa;" id="icon-table"></i>
-                                        <i class="fa-solid fa-trash" style="color: #707070;" id="icon-table"></i>
-                                    </td>
-                                  </tr>
-                                  <tr>
-                                    <td scope="row"><img src="img/class-avatar.jpg" class="img-avatar" alt=""> Classe 76</td>
-                                    <td></td>
-                                    <td>16 Feb 2021</td>
-                                    <td>20%</td>
-                                    <td><span class="done">Done</span></td>
-                                    <td>
-                                        <i class="fa-solid fa-pen" style="color: #bababa;" id="icon-table"></i>
-                                        <i class="fa-solid fa-trash" style="color: #707070;" id="icon-table"></i>
-                                    </td>
-                                  </tr>
-                                  <tr>
-                                    <td scope="row"><img src="img/class-avatar.jpg" class="img-avatar" alt=""> Classe 77</td>
-                                    <td></td>
-                                    <td>17 Feb 2021</td>
-                                    <td>20%</td>
-                                    <td><span class="process">Process</span></td>
-                                    <td>
-                                        <i class="fa-solid fa-pen" style="color: #bababa;" id="icon-table"></i>
-                                        <i class="fa-solid fa-trash" style="color: #707070;" id="icon-table"></i>
-                                    </td>
-                                  </tr>
-                                  <tr>
-                                    <td scope="row"><img src="img/class-avatar.jpg" class="img-avatar" alt=""> Classe 78</td>
-                                    <td></td>
-                                    <td>18 Feb 2021</td>
-                                    <td>20%</td>
-                                    <td><span class="done">Done</span></td>
-                                    <td>
-                                        <i class="fa-solid fa-pen" style="color: #bababa;" id="icon-table"></i>
-                                        <i class="fa-solid fa-trash" style="color: #707070;" id="icon-table"></i>
-                                    </td>
-                                  </tr>
-                                  <tr>
-                                    <td scope="row"><img src="img/class-avatar.jpg" class="img-avatar" alt=""> Classe 79</td>
-                                    <td></td>
-                                    <td>19 Feb 2021</td>
-                                    <td>20%</td>
-                                    <td><span class="failed">Failed</span></td>
-                                    <td>
-                                        <i class="fa-solid fa-pen" style="color: #bababa;" id="icon-table"></i>
-                                        <i class="fa-solid fa-trash" style="color: #707070;" id="icon-table"></i>
-                                    </td>
-                                  </tr>
-                                  <tr>
-                                    <td scope="row"><img src="img/class-avatar.jpg" class="img-avatar" alt=""> Classe 80</td>
-                                    <td></td>
-                                    <td>20 Feb 2021</td>
-                                    <td>20%</td>
-                                    <td><span class="done">Done</span></td>
-                                    <td>
-                                        <i class="fa-solid fa-pen" style="color: #bababa;" id="icon-table"></i>
-                                        <i class="fa-solid fa-trash" style="color: #707070;"id="icon-table"></i>
-                                    </td>
-                                  </tr>
-                                  <tr>
-                                    <td scope="row"><img src="img/class-avatar.jpg" class="img-avatar" alt=""> Classe 81</td>
-                                    <td></td>
-                                    <td>21 Feb 2021</td>
-                                    <td>20%</td>
-                                    <td><span class="failed">Failed</span></td>
-                                    <td>
-                                        <i class="fa-solid fa-pen" style="color: #bababa;" id="icon-table"></i>
-                                        <i class="fa-solid fa-trash" style="color: #707070;" id="icon-table"></i>
-                                    </td>
-                                  </tr>
-                                  <tr>
-                                    <td scope="row"><img src="img/class-avatar.jpg" class="img-avatar" alt=""> Classe 82</td>
-                                    <td></td>
-                                    <td>22 Feb 2021</td>
-                                    <td>20%</td>
-                                    <td><span class="done">Done</span></td>
-                                    <td>
-                                        <i class="fa-solid fa-pen" style="color: #bababa;" id="icon-table"></i>
-                                        <i class="fa-solid fa-trash" style="color: #707070;" id="icon-table"></i>
-                                    </td>
-                                  </tr>
-                                    
-                                </tbody>
-                              </table>
-                        </div>
+                    <div class="row">
 
-                      
-                        <div class="col-3">
-                            <table class="table">
-                                <thead>
-                                  <tr>
-                                    <th scope="col">#</th>
-                                    <th scope="col">First</th>
-                                    <th scope="col">Last</th>
-                                    <th scope="col">Handle</th>
-                                  </tr>
-                                </thead>
-                                <tbody>
-                                  <tr>
-                                    <th scope="row">1</th>
-                                    <td>Mark</td>
-                                    <td>Otto</td>
-                                    <td>@mdo</td>
-                                  </tr>
-                                  <tr>
-                                    <th scope="row">2</th>
-                                    <td>Jacob</td>
-                                    <td>Thornton</td>
-                                    <td>@fat</td>
-                                  </tr>
-                                  <tr>
-                                    <th scope="row">3</th>
-                                    <td colspan="2">Larry the Bird</td>
-                                    <td>@twitter</td>
-                                  </tr>
-                                </tbody>
-                              </table>
-                        </div>
+                        <div class="col-lg-8 col-md-12">
+                            <div class="contenuto">
+
+                                <div class="col-12" style="border: 1px solid rgb(172, 172, 172);">
+                                    <h3 style="color: black;">Prossime classi</h3>
+                                </div>
                             
+                                <div class="col-12" style="border: 1px solid rgb(172, 172, 172); background-color: white;">
+                                    <table class="table">
+                                        <thead>
+                                        <tr>
+                                            <td scope="col">Nome</td>
+                                            <th></th>
+                                            <td scope="col">Data inizio</td>
+                                            <td scope="col">ROI</td>
+                                            <td scope="col">Stato</td>
+                                            <td scope="col">Azioni</td>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        <tr>
+                                            <td scope="row"><img src="img/class-avatar.jpg" class="img-avatar" alt=""> Classe 75</td>
+                                            <td></td>
+                                            <td>15 Feb 2021</td>
+                                            <td>20%</td>
+                                            <td ><span class="done">Done</span></td>
+                                            <td>
+                                                <i class="fa-solid fa-pen" style="color: #bababa;" id="icon-table"></i>
+                                                <i class="fa-solid fa-trash" style="color: #707070;" id="icon-table"></i>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td scope="row"><img src="img/class-avatar.jpg" class="img-avatar" alt=""> Classe 76</td>
+                                            <td></td>
+                                            <td>16 Feb 2021</td>
+                                            <td>20%</td>
+                                            <td><span class="done">Done</span></td>
+                                            <td>
+                                                <i class="fa-solid fa-pen" style="color: #bababa;" id="icon-table"></i>
+                                                <i class="fa-solid fa-trash" style="color: #707070;" id="icon-table"></i>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td scope="row"><img src="img/class-avatar.jpg" class="img-avatar" alt=""> Classe 77</td>
+                                            <td></td>
+                                            <td>17 Feb 2021</td>
+                                            <td>20%</td>
+                                            <td><span class="process">Process</span></td>
+                                            <td>
+                                                <i class="fa-solid fa-pen" style="color: #bababa;" id="icon-table"></i>
+                                                <i class="fa-solid fa-trash" style="color: #707070;" id="icon-table"></i>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td scope="row"><img src="img/class-avatar.jpg" class="img-avatar" alt=""> Classe 78</td>
+                                            <td></td>
+                                            <td>18 Feb 2021</td>
+                                            <td>20%</td>
+                                            <td><span class="done">Done</span></td>
+                                            <td>
+                                                <i class="fa-solid fa-pen" style="color: #bababa;" id="icon-table"></i>
+                                                <i class="fa-solid fa-trash" style="color: #707070;" id="icon-table"></i>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td scope="row"><img src="img/class-avatar.jpg" class="img-avatar" alt=""> Classe 79</td>
+                                            <td></td>
+                                            <td>19 Feb 2021</td>
+                                            <td>20%</td>
+                                            <td><span class="failed">Failed</span></td>
+                                            <td>
+                                                <i class="fa-solid fa-pen" style="color: #bababa;" id="icon-table"></i>
+                                                <i class="fa-solid fa-trash" style="color: #707070;" id="icon-table"></i>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td scope="row"><img src="img/class-avatar.jpg" class="img-avatar" alt=""> Classe 80</td>
+                                            <td></td>
+                                            <td>20 Feb 2021</td>
+                                            <td>20%</td>
+                                            <td><span class="done">Done</span></td>
+                                            <td>
+                                                <i class="fa-solid fa-pen" style="color: #bababa;" id="icon-table"></i>
+                                                <i class="fa-solid fa-trash" style="color: #707070;"id="icon-table"></i>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td scope="row"><img src="img/class-avatar.jpg" class="img-avatar" alt=""> Classe 81</td>
+                                            <td></td>
+                                            <td>21 Feb 2021</td>
+                                            <td>20%</td>
+                                            <td><span class="failed">Failed</span></td>
+                                            <td>
+                                                <i class="fa-solid fa-pen" style="color: #bababa;" id="icon-table"></i>
+                                                <i class="fa-solid fa-trash" style="color: #707070;" id="icon-table"></i>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td scope="row"><img src="img/class-avatar.jpg" class="img-avatar" alt=""> Classe 82</td>
+                                            <td></td>
+                                            <td>22 Feb 2021</td>
+                                            <td>20%</td>
+                                            <td><span class="done">Done</span></td>
+                                            <td>
+                                                <i class="fa-solid fa-pen" style="color: #bababa;" id="icon-table"></i>
+                                                <i class="fa-solid fa-trash" style="color: #707070;" id="icon-table"></i>
+                                            </td>
+                                        </tr>
+                                            
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+
+                            <div class="contenuto">
+                                <div class="col-12" style="border: 1px solid rgb(172, 172, 172);">
+                                    <h3 style="color: black;">F.A.Q</h3>
+                                </div>
+
+                                <div class="col-12" style="border: 1px solid rgb(172, 172, 172); background-color: white;">
+                           <table class="table">
                             
+                               <tbody>
+                                 <tr>
+                                   <td>Come aderisce un nuovo studente?</td>
+                                   <td><a href=""><i class="fa-solid fa-chevron-down" style="color: #000000;"></i></a></td>
+                                   
+                                 </tr>
+                                 <tr>
+                                   
+                                   <td>Come posso accedere alle informazioni del mio account?</td>
+                                   <td><a href=""><i class="fa-solid fa-chevron-down" style="color: #000000;"></i></a></td>
+                                   
+                                   
+                                 </tr>
+                                 <tr>
+                                   
+                                   <td>Posso usare questa Dashboard da mobile?</td>
+                                   <td><a href=""><i class="fa-solid fa-chevron-down" style="color: #000000;"></i></a></td>
+                                 </tr>
+                               </tbody>
+                             </table>
+                            </div> 
                         </div>
-                    </div>
 
-                    <div class="row" id="row-table">
-                        <div class="col-8" style="border: 1px solid rgb(172, 172, 172);">
-                            <h3 style="color: black;">F.A.Q</h3>
-                       </div>
+                        </div>
 
-                        <div class="col-8" style="border: 1px solid rgb(172, 172, 172);">
-                            <table class="table">
-                             
+
+                        <div class="col-lg-4 col-md-12">
+                            
+                            <div class="contenuto" style="border: 1px solid rgb(172, 172, 172);">
+
+                                <div class="col-12" style="border: 1px solid rgb(172, 172, 172);" >
+                                <h3>Todo</h3>
+                                </div>
+                            
+                                 <div class="col-12" style="border: 1px solid rgb(172, 172, 172); background-color: white;">
+                            
+                              <table class="table">
+                            
                                 <tbody>
                                   <tr>
-                                    <td>Come aderisce un nuovo studente?</td>
-                                    <td><a href=""><i class="fa-solid fa-chevron-down" style="color: #000000;"></i></a></td>
+                                   
+                                    <td> <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked> Lezioni su Bootstrap 5 in classe #72</td>
                                     
                                   </tr>
                                   <tr>
                                     
-                                    <td>Come posso accedere alle informazioni del mio account?</td>
-                                    <td><a href=""><i class="fa-solid fa-chevron-down" style="color: #000000;"></i></a></td>
-                                    
-                                    
+                                    <td> <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked> Lezioni su Bootstrap 5 in classe #72</td>
+                                  
                                   </tr>
                                   <tr>
                                     
-                                    <td>Posso usare questa Dashboard da mobile?</td>
-                                    <td><a href=""><i class="fa-solid fa-chevron-down" style="color: #000000;"></i></a></td>
+                                    <td> <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked> Lezioni su Bootstrap 5 in classe #72</td>
+
                                   </tr>
                                 </tbody>
                               </table>
-                        </div>
-                    </div>
+                                </div>
+                            </div>
 
-                    
+                            <div class="contenuto" style="border: 1px solid rgb(172, 172, 172);">
+
+                                 <div class="col-12" style="border: 1px solid rgb(172, 172, 172); background-color: white;" >
+                                    <img src="img/stats.jpeg"  id="img_grafico">
+
+                                    <table class="table">
+                                        <thead>
+                                            <tr>
+                                                <td>
+                                                    <h4>Utenti attivi</h4>
+                                                    Lista degli utenti attivi sulla piattaforma nell'ultimo mese
+                                                </td>
+                                                
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                          <tr>
+                                            <td> Gennaio: 1200</td>
+                                          </tr>
+                                          <tr>
+                                            <td>  Febbraio: 800</td>
+                                          </tr>
+                                          <tr>
+                                            <td>  Marzo: 1500</td>        
+                                          </tr>
+                                          <tr>
+                                            <td> <a href="" style="text-decoration: underline;">Visualizza report approfondito</a> </td>        
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                   
+                                </div>
+                            </div>
+                            
+                        </div>
+                                
+                    </div>
+   
                 </div>
             </div>
         
